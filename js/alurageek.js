@@ -11,7 +11,7 @@ function redireccionarAPagina() {
 }
 
 function redireccionarAConsolas() {
-    window.location.href = "secciones-consolas.html";
+    window.location.href = "../secciones-consolas.html";
 }
 
 /*
