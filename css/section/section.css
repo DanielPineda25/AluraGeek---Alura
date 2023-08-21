@@ -1,0 +1,24 @@
+section{
+    background-image: url("../../recursos/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    section{
+        background-size: cover;
+        height: 192px;
+    }
+
+}

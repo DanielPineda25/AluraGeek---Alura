@@ -1,0 +1,71 @@
+.sesion__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 39%;
+}
+
+.sesion__formulario h2{
+    font-weight: 700;
+    color: var(--fuente-main-titulos);
+    font-size: 32px;
+}
+
+.sesion__formulario div{
+    display: flex;
+    flex-direction: column;
+    color: var(--fuente-cajas-login);
+    font-size: 12px;
+}
+
+.sesion__formulario label{
+    position: relative;
+    margin-left: 2%;
+    top: 35%;
+    margin-top: -12px;
+}
+
+.sesion__input--nombre, .sesion__input--descripcion{
+    height: 56px;
+    border: none;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid var(--fuente-footer-border);
+    font-family: var(--Raleway);
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.sesion__input--nombre:focus, .sesion__input--enviar:focus, .sesion__input--descripcion:focus{
+    outline: none;
+    border: 1px solid var(--fuente-boton-login);
+    box-shadow: 0 0 5px var(--fuente-boton-login);
+}
+
+.sesion__input--descripcion{
+    height: 82px;
+}
+
+.sesion__input--enviar{
+    height: 51px;
+    border: none;
+    background-color: var(--fuente-boton-login);
+    font-family: var(--Raleway);
+    font-size: 18px;
+    color: var(--background-blanco);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sesion__formulario h2{
+        font-size: 22px;
+    }
+
+    .sesion__formulario{
+        width: 90%;
+    }
+
+
+}

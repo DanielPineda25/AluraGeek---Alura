@@ -1,0 +1,37 @@
+.copyrigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-blanco);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    gap: 20px;
+}
+
+.copyrigth p{
+    font-family: var(--Raleway);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--fuente-main-titulos);
+}
+
+.div-redes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div-redes img {
+    width: 20px;
+    height: 20px; 
+}
+
+.link-redes{
+    transition: all 0.4s ease-in-out;
+}
+
+.link-redes:hover {
+    transform: scale(0.90);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}

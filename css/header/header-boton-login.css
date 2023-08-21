@@ -1,0 +1,41 @@
+.header__button{
+    width: 13%;
+    height: 51px;
+    display: flex;
+}
+
+.header__button a{
+    text-decoration: none;
+    width: 100%;
+    line-height: 51px;
+    border: 1px solid var(--fuente-boton-login);
+    background-color: var(--background-blanco);
+    color: var(--fuente-boton-login);
+    font-family: var(--Raleway);
+    text-align: center;
+}
+
+/* Inicio diseño responsive para tablets */
+
+@media screen and (max-width: 768px) {
+
+    .header__button{
+        width: 22%;
+        height: 40px;
+    }
+
+    .header__button a{
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .header__button{
+        width: 133px;
+        height: 40px;
+    }
+
+}

@@ -1,0 +1,43 @@
+.contacto__enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contacto__enlaces p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contacto__enlaces a{
+    text-decoration: none;  
+}
+
+.contacto__enlaces p, .contacto__enlaces a{
+    color: var(--fuente-main-titulos);
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacto__enlaces{
+        order: 2;
+        position: relative;
+        left: -245px;
+        bottom: 200px;
+        margin-bottom: -180px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .contacto__enlaces{
+        order: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 5% 0% 10% 0%;
+        align-items: center;
+    }
+ 
+}

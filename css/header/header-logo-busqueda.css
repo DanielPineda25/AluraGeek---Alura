@@ -1,0 +1,72 @@
+.header__logo_search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    width: 42%;
+}
+
+.header__logo a{
+    width: 31%;
+    height: 51px;
+}
+
+.header__search--lupa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__input--Search{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 36px 8px 16px;
+    background-color: var(--background-main);
+    font-family: var(--Raleway);
+}
+
+.header__input--Search::placeholder{
+    color: var(--fuente-cajas-login);
+}
+
+.header__input--Search:focus{
+    outline: none;
+}
+
+.search__lupa{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+}
+
+/*.header__input--Search:focus ~ .search__lupa{
+    display: none;
+}*/
+
+/* Inicio diseño responsive para tablets */
+
+@media screen and (max-width: 768px) {
+
+    .header__logo_search{
+        width: 53%;
+    }
+
+    .header__logo{
+        height: 28px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .header__logo{
+        width: 100px;
+        height: 28px;
+    }
+
+}

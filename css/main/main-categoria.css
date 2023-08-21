@@ -1,0 +1,11 @@
+.div__categoria{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    
+}

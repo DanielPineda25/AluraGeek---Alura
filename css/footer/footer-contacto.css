@@ -1,0 +1,30 @@
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    flex-wrap: wrap;
+    width: 93%;
+    align-content: stretch;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacto{
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10%;
+    }
+
+    .contacto__logo{
+        order: 0;
+        width: 176px;
+        height: 51px;
+    }
+
+    .contacto__logo img{
+        width: 176px;
+        height: 51px;
+    }
+
+}

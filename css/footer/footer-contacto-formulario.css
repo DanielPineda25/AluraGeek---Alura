@@ -1,0 +1,86 @@
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 36%;
+}
+
+.contacto__formulario h2{
+    font-weight: 700;
+    color: var(--fuente-main-titulos);
+}
+
+.contacto__formulario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__formulario label{
+    position: relative;
+    color: var(--fuente-cajas-login);
+    font-size: 12px;
+    margin-left: 2%;
+    top: 30%;
+    margin-top: -12px;
+}
+
+.formulario__input--nombre{
+    height: 56px;
+}
+
+.formulario__input--mensaje{
+    height: 82px;
+}
+
+.formulario__input--nombre, .formulario__input--mensaje{
+    border: none;
+    border-bottom: 1px solid var(--fuente-footer-border);
+    font-size: 16px;
+    padding-left: 2%;
+    padding-top: 3%;
+    font-family: var(--Raleway);
+    border-radius: 4px;
+}
+
+.formulario__input--nombre:focus, .formulario__input--mensaje:focus, .formulario__input--enviar:focus{
+    outline: none;
+    border: 1px solid var(--fuente-boton-login);
+    box-shadow: 0 0 5px var(--fuente-boton-login);
+}
+
+.formulario__input--enviar{
+    width: 144px;
+    height: 51px;
+    background-color: var(--fuente-boton-login);
+    color: var(--background-blanco);
+    border: none;
+    font-family: var(--Raleway);   
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacto__formulario{
+        flex-basis: 60%;
+        order: 0;
+    }
+
+    .contacto__formulario label{
+        margin-left: 2%;
+        top: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .contacto__formulario{
+        flex-basis: 100%;
+        margin-bottom: 4%;
+    }
+
+    .formulario__input--enviar{
+        width: 133px;
+        height: 40px;  
+    }
+ 
+}

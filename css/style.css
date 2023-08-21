@@ -1,0 +1,18 @@
+body{
+    font-family: var(--Raleway);
+    background-color: var(--background-main)
+}
+
+:root{
+    --background-blanco: #FFFFFF;
+    --background-main: #F5F5F5;
+    --background-footer: #EAF2FD;
+    
+    --fuente-boton-login: #2A7AE4;
+    --fuente-main-titulos: #464646;
+    --fuente-footer-border: #C8C8C8;
+    --fuente-cajas-login: #A2A2A2;
+
+    --Raleway: 'Raleway', sans-serif;
+
+}

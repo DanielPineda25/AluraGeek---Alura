@@ -1,0 +1,7 @@
+section{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}

@@ -1,0 +1,71 @@
+.sesion__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 24.5px;
+    width: 30%;
+}
+
+.sesion__formulario h2{
+    font-weight: 700;
+    color: var(--fuente-main-titulos);
+    text-align: center;
+    font-size: 18px;
+}
+
+.sesion__input--nombre, .sesion__input--pass{
+    height: 55px;
+    border: none;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid var(--fuente-footer-border);
+    font-family: var(--Raleway);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2%;
+}
+
+.sesion__input--pass::placeholder, .sesion__input--nombre::placeholder{
+    color: var(--fuente-cajas-login);
+    
+}
+
+.sesion__input--pass:focus, .sesion__input--nombre:focus, .sesion__input--enviar:focus{
+    outline: none;
+    border: 1px solid var(--fuente-boton-login);
+    box-shadow: 0 0 5px var(--fuente-boton-login);
+}
+
+.sesion__input--enviar{
+    height: 62px;
+    border: none;
+    background-color: var(--fuente-boton-login);
+    font-family: var(--Raleway);
+    font-weight: 600;
+    color: var(--background-blanco);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sesion__input--nombre, .sesion__input--pass{
+        height: 41px;
+        width: 275px;
+        padding: 2%;
+    }
+
+    .sesion__input--enviar{
+        width: 109px;
+        height: 40px;
+        align-self: center;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .sesion__formulario{
+        width: 100%;
+        align-items: center;
+        gap: 16px;
+    }
+
+}

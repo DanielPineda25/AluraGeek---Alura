@@ -1,0 +1,28 @@
+.section__boton input{
+    width: 118px;
+    height: 51px;
+    border: none;
+    color: var(--background-blanco);
+    background-color: var(--fuente-boton-login);
+    font-family: var(--Raleway);
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.section__boton{
+    padding-left: 9%;
+    padding-bottom: 1%;
+}
+
+@media screen and (max-width: 375px) {
+
+    .section__boton input{
+        height: 40px;
+    }
+
+    .section__boton{
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+
+}

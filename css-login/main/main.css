@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 375px) {
+
+    main{
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+}

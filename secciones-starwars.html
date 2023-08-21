@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/header/header-logo-busqueda.css">
+    <link rel="stylesheet" href="css/header/header-boton-login.css">
+    <link rel="stylesheet" href="css/main/main.css">
+    <link rel="stylesheet" href="css/main/main-categoria.css">
+    <link rel="stylesheet" href="css/main/main-categoria-titulo.css">
+    <link rel="stylesheet" href="css/main/main-categoria-productos.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/footer/footer-contacto.css">
+    <link rel="stylesheet" href="css/footer/footer-contacto-enlaces.css">
+    <link rel="stylesheet" href="css/footer/footer-contacto-formulario.css">
+    <link rel="stylesheet" href="css/footer/footer-copyrigth.css">
+    <title>AluraGeek</title>
+
+</head>
+<body>
+
+    <header>
+
+        <div class="header__logo_search">
+
+            <a href="index.html"><img class="header__logo" src="recursos/Logo.png" alt="Logo AluraGeek"/></a>
+
+            <div class="header__search--lupa">
+
+                <input type="search" class="header__input--Search" placeholder="¿Qué deseas buscar?" name="inputSearch"/>
+                <img class="search__lupa" src="recursos/Vector-lupa.png" alt="lupa búsqueda ilustración"/>
+
+            </div>
+
+        </div>
+
+        <div class="header__button">
+
+            <a href="login.html">Login</a>
+
+        </div>
+        
+
+    </header>
+
+    <main>
+
+        <div class="categoria__titulo">
+
+            <h2>Star Wars</h2>            
+
+        </div>
+
+        <div class="contenedor__productos" meta-mostrador-starwars>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="contacto">
+
+            <div class="contacto__logo">
+
+                <img src="recursos/Logo.png" alt="Logo AluraGeek"/>
+
+            </div>
+
+            <div class="contacto__enlaces">
+
+                <p><a href="#" target="_blank" rel="noopener">Quienes somos</a></p>
+                <p><a href="#" target="_blank" rel="noopener">Politicas de privacidad</a></p>
+                <p><a href="#" target="_blank" rel="noopener">Programa de fidelidad</a></p>
+                <p><a href="#" target="_blank" rel="noopener">Nuestras tiendas</a></p>
+                <p><a href="#" target="_blank" rel="noopener">Quiero ser franquiciado</a></p>
+                <p><a href="#" target="_blank" rel="noopener">Anúncie aquí</a></p>
+
+            </div>
+
+            <form class="contacto__formulario">
+
+                <h2>Hable con nosotros</h2>
+
+                <div>
+
+                    <label for="name">Nombre</label>
+                    <input class="formulario__input--nombre" id="name" type="text" id="nombre" name="nombre" required>
+
+                </div>
+                
+                <div>
+
+                    <label for="mensaje">Escribe tu mensaje</label>
+                    <input class="formulario__input--mensaje" type="text" id="mensaje" name="mensaje" required></input>
+
+                </div>
+                
+                <input class="formulario__input--enviar" type="submit" value="Enviar mensaje">
+
+            </form>
+
+        </div>
+
+        <div class="copyrigth">
+
+            <p>© Desarrollado por Daniel Pineda | 2023</p>
+            
+            <div class="div-redes">
+
+                <a class="link-redes" href="https://www.instagram.com/danieldinedasi/" target="_blank" rel="noopener"><img class="logo-instagram" src="recursos/icono instagram.png" alt="logo instagram" /></a>
+    
+                <a class="link-redes" href="https://www.youtube.com/mundosipossible" target="_blank" rel="noopener"><img class="logo-youtube" src="recursos/icono youtube.png" alt="logo youtube" /></a>
+    
+                <a class="link-redes" href="https://www.linkedin.com/in/danielpinedasi" target="_blank" rel="noopener"><img class="logo-linkedin" src="recursos/icono linkedin.png" alt="logo linkedin" /></a>
+    
+                <a class="link-redes" href="https://github.com/DanielPineda25?tab=projects" target="_blank" rel="noopener"><img class="logo-github" src="recursos/icono github.png" alt="logo github" /></a>
+    
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script type="module" src="funciones-js/seccion-starwars.js"></script>
+    
+</body>
+</html>
